@@ -16,6 +16,11 @@
 		B7081C7E2AB7291F00EEB6B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7081C7D2AB7291F00EEB6B3 /* LoginViewController.swift */; };
 		B7081C802AB7332600EEB6B3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7081C7F2AB7332600EEB6B3 /* MenuViewController.swift */; };
 		B7081C822AB7415E00EEB6B3 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7081C812AB7415E00EEB6B3 /* RegistroViewController.swift */; };
+		B70D47312AC06EB3003CEB62 /* NotaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D47302AC06EB3003CEB62 /* NotaTableViewCell.swift */; };
+		B70D47332AC0708C003CEB62 /* NotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D47322AC0708C003CEB62 /* NotaViewController.swift */; };
+		B70D47352AC0722C003CEB62 /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D47342AC0722C003CEB62 /* Nota.swift */; };
+		B70D473A2AC08272003CEB62 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D47392AC08272003CEB62 /* Contacto.swift */; };
+		B70D473C2AC082DD003CEB62 /* ContactoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D473B2AC082DD003CEB62 /* ContactoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		B7081C7D2AB7291F00EEB6B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7081C7F2AB7332600EEB6B3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B7081C812AB7415E00EEB6B3 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		B70D47302AC06EB3003CEB62 /* NotaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaTableViewCell.swift; sourceTree = "<group>"; };
+		B70D47322AC0708C003CEB62 /* NotaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaViewController.swift; sourceTree = "<group>"; };
+		B70D47342AC0722C003CEB62 /* Nota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nota.swift; sourceTree = "<group>"; };
+		B70D47392AC08272003CEB62 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		B70D473B2AC082DD003CEB62 /* ContactoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,8 @@
 		B704FA742AADEDA60046ADA6 /* JOAS_cibertec */ = {
 			isa = PBXGroup;
 			children = (
+				B70D47362AC0822E003CEB62 /* contacto */,
+				B70D472F2AC06E49003CEB62 /* notas */,
 				B7081C7D2AB7291F00EEB6B3 /* LoginViewController.swift */,
 				B704FA752AADEDA60046ADA6 /* AppDelegate.swift */,
 				B704FA772AADEDA60046ADA6 /* SceneDelegate.swift */,
@@ -74,6 +86,25 @@
 				B7081C812AB7415E00EEB6B3 /* RegistroViewController.swift */,
 			);
 			path = JOAS_cibertec;
+			sourceTree = "<group>";
+		};
+		B70D472F2AC06E49003CEB62 /* notas */ = {
+			isa = PBXGroup;
+			children = (
+				B70D47302AC06EB3003CEB62 /* NotaTableViewCell.swift */,
+				B70D47322AC0708C003CEB62 /* NotaViewController.swift */,
+				B70D47342AC0722C003CEB62 /* Nota.swift */,
+			);
+			path = notas;
+			sourceTree = "<group>";
+		};
+		B70D47362AC0822E003CEB62 /* contacto */ = {
+			isa = PBXGroup;
+			children = (
+				B70D47392AC08272003CEB62 /* Contacto.swift */,
+				B70D473B2AC082DD003CEB62 /* ContactoTableViewCell.swift */,
+			);
+			path = contacto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +181,13 @@
 				B7081C7E2AB7291F00EEB6B3 /* LoginViewController.swift in Sources */,
 				B7081C822AB7415E00EEB6B3 /* RegistroViewController.swift in Sources */,
 				B7081C802AB7332600EEB6B3 /* MenuViewController.swift in Sources */,
+				B70D47312AC06EB3003CEB62 /* NotaTableViewCell.swift in Sources */,
+				B70D473A2AC08272003CEB62 /* Contacto.swift in Sources */,
+				B70D47332AC0708C003CEB62 /* NotaViewController.swift in Sources */,
+				B70D47352AC0722C003CEB62 /* Nota.swift in Sources */,
 				B704FA7A2AADEDA60046ADA6 /* ViewController.swift in Sources */,
 				B704FA762AADEDA60046ADA6 /* AppDelegate.swift in Sources */,
+				B70D473C2AC082DD003CEB62 /* ContactoTableViewCell.swift in Sources */,
 				B704FA782AADEDA60046ADA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
