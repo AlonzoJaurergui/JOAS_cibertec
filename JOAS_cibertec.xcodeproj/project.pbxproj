@@ -21,6 +21,7 @@
 		B70D47352AC0722C003CEB62 /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D47342AC0722C003CEB62 /* Nota.swift */; };
 		B70D473A2AC08272003CEB62 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D47392AC08272003CEB62 /* Contacto.swift */; };
 		B70D473C2AC082DD003CEB62 /* ContactoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D473B2AC082DD003CEB62 /* ContactoTableViewCell.swift */; };
+		B70D47402AC085FC003CEB62 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D473F2AC085FC003CEB62 /* ContactoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B70D47342AC0722C003CEB62 /* Nota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nota.swift; sourceTree = "<group>"; };
 		B70D47392AC08272003CEB62 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		B70D473B2AC082DD003CEB62 /* ContactoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoTableViewCell.swift; sourceTree = "<group>"; };
+		B70D473F2AC085FC003CEB62 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				B70D47392AC08272003CEB62 /* Contacto.swift */,
 				B70D473B2AC082DD003CEB62 /* ContactoTableViewCell.swift */,
+				B70D473F2AC085FC003CEB62 /* ContactoViewController.swift */,
 			);
 			path = contacto;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				B70D47352AC0722C003CEB62 /* Nota.swift in Sources */,
 				B704FA7A2AADEDA60046ADA6 /* ViewController.swift in Sources */,
 				B704FA762AADEDA60046ADA6 /* AppDelegate.swift in Sources */,
+				B70D47402AC085FC003CEB62 /* ContactoViewController.swift in Sources */,
 				B70D473C2AC082DD003CEB62 /* ContactoTableViewCell.swift in Sources */,
 				B704FA782AADEDA60046ADA6 /* SceneDelegate.swift in Sources */,
 			);

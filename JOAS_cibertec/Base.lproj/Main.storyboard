@@ -489,7 +489,7 @@
         <!--Contactos-->
         <scene sceneID="0Bd-N0-RRo">
             <objects>
-                <viewController id="xta-v0-pZa" customClass="ContactoTableViewController" customModule="JOAS_cibertec" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xta-v0-pZa" customClass="ContactoViewController" customModule="JOAS_cibertec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CxM-pp-6JA">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,6 +558,9 @@
                     <navigationItem key="navigationItem" title="Contactos" id="pkK-rr-hcI">
                         <barButtonItem key="rightBarButtonItem" title="Agregar" id="3qn-rH-b36"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="Contacto" destination="R7Y-kV-Svh" id="HPn-cN-gea"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zog-6r-1bc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
